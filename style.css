@@ -665,14 +665,7 @@ ul {
 .main-header {
         padding: 0px 0 !important;
     }
-    .contact-item i {
-        margin-bottom: 14px;
-    }
-.contact-item {
-        flex-direction: row;
-        text-align: left;
-        gap:30px;
-    }
+    
 }
 
 /* About Us Section Styles */
@@ -2348,7 +2341,7 @@ ul {
     }
     .contact-item {
         flex-direction: column; /* Stack icon and text */
-        text-align: center;
+        text-align: center !important;
         gap: 5px;
     }
     .contact-item i {
