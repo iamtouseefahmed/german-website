@@ -666,6 +666,7 @@ ul {
         padding: 0px 0 !important;
     }
     
+    
 }
 
 /* About Us Section Styles */
@@ -1105,6 +1106,14 @@ ul {
     .service-offerings-section h2 {
         font-size: 2em;
     }
+    .contact-item-footer {
+    display: flex;
+    justify-content: center;
+    align-items: CENTER;
+    gap: 15px;
+    margin-bottom: 20px;
+
+}
 }
 
 @media (max-width: 768px) {
@@ -1186,6 +1195,11 @@ ul {
     .scroll-to-top .brand-text {
         display: none; /* Hide text on very small screens */
     }
+    .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
 }
 /* How It Work Section Styles */
 .how-it-work-section {
