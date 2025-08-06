@@ -1106,14 +1106,16 @@ ul {
     .service-offerings-section h2 {
         font-size: 2em;
     }
+
     .contact-item-footer {
     display: flex;
     justify-content: center;
-    align-items: CENTER;
+    align-items: center;
     gap: 15px;
     margin-bottom: 20px;
 
 }
+
 }
 
 @media (max-width: 768px) {
@@ -1199,6 +1201,12 @@ ul {
     display: flex;
     align-items: center;
     gap: 15px;
+}
+.contact-item-footer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
 }
 }
 /* How It Work Section Styles */
